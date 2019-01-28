@@ -1,0 +1,13 @@
+<Alloy>
+	<Window>
+		<ScrollView>			
+			<View class="container">
+				<ImageView id="logo"/>
+                <TextField id="username"/>
+                <TextField id="password"/>
+                <Button id="loginButton">Login</Button>
+                <Button id="rpwButton" onClick='pwrec'>Recover Password</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

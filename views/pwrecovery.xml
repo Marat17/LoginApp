@@ -1,0 +1,12 @@
+<Alloy>
+	<Window>
+		<ScrollView>			
+			<View class="container">
+				<ImageView id="logo"/>
+                <TextField id="email"/>
+                <TextField id="controlq"/>
+                <Button id="sendmepasswordButton" onClick='tologinpage'>Send me Password</Button>
+			</View>
+		</ScrollView>
+	</Window>
+</Alloy>

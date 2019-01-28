@@ -1,0 +1,56 @@
+"#login": {
+	fullscreen: false,
+	exitOnClose: true
+}
+
+".container": {
+	height: '301dp',
+	width: '200dp'
+}
+
+"#logo": {
+	image: '/logo.png',
+	top: 0,
+	left: -3,
+	height: '121dp',
+	width: '193dp'
+}
+
+"TextField": {
+	width: '200dp',
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+"#username": {
+	top: '130dp',
+	hintText: 'Username',
+	returnKeyType: Ti.UI.RETURNKEY_NEXT,
+	autocapitalization: false,
+	autocorrect: false
+}
+
+"#password": {
+	top: '170dp',
+	hintText: 'Password',
+	passwordMask: true,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}
+
+"#loginButton": {
+	top: '210dp',
+	height: '40dp',
+	width: '100dp',
+	color: '#fff',
+	backgroundColor: "#0000DD",
+	backgroundSelectedColor: "blue"
+}
+
+"#rpwButton": {
+	top: '260dp',
+	height: '40dp',
+	width: '200dp',
+	color: '#fff',
+	backgroundColor: "#4B0082",
+	backgroundSelectedColor: "#800080"
+}

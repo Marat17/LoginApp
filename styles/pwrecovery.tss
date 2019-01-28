@@ -1,0 +1,48 @@
+"#login": {
+	fullscreen: false,
+	exitOnClose: true
+}
+
+".container": {
+	height: '301dp',
+	width: '200dp'
+}
+
+"#logo": {
+	image: '/logo.png',
+	top: 0,
+	left: -3,
+	height: '121dp',
+	width: '193dp'
+}
+
+"TextField": {
+	width: '200dp',
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+
+"#email": {
+	top: '130dp',
+	hintText: 'E-Mail',
+	returnKeyType: Ti.UI.RETURNKEY_NEXT,
+	autocapitalization: false,
+	autocorrect: false
+}
+
+"#controlq": {
+	top: '170dp',
+	hintText: "Your first pet's name",
+	returnKeyType: Ti.UI.RETURNKEY_NEXT,
+	autocapitalization: false,
+	autocorrect: false
+}
+
+"#sendmepasswordButton": {
+	top: '230dp',
+	height: '40dp',
+	width: '200dp',
+	color: '#fff',
+	backgroundColor: "#4B0082",
+	backgroundSelectedColor: "#800080"
+}
